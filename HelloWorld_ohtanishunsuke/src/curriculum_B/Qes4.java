@@ -130,24 +130,24 @@ public class Qes4 {
             
 		/*2次元配列 int[][] array = {{12, 15, 8}, {6, 19, 25}, {30, 2, 10}}; を用意する
 		配列内の 最大値と最小値 を求めて表示*/
-        int[][] array2 = {
-                    {12, 15, 8},
-                    {6, 19, 25},
-                    {30, 2, 10}
+         int[][] array2 = {
+                 {12, 15, 8},
+                 {6, 19, 25},
+                 {30, 2, 10}
              };
 
-          // 最初の要素で初期化
+             // 最初の要素で初期化
              int max1 = array2[0][0];
              int min1 = array2[0][0];
 
-                // 2次元配列を走査して最大値・最小値を更新
+             // 2次元配列を走査して最大値・最小値を更新
              for (int i = 0; i < array2.length; i++) {
                  for (int j = 0; j < array2[i].length; j++) {
-                     if (array2[i][j] > max) {
-                         max = array2[i][j];
+                     if (array2[i][j] > max1) {
+                         max1 = array2[i][j];
                      }
-                     if (array2[i][j] < min) {
-                         min = array2[i][j];
+                     if (array2[i][j] < min1) {
+                         min1 = array2[i][j];
                      }
                  }
              }
@@ -155,7 +155,8 @@ public class Qes4 {
              // 結果を表示
              System.out.println("最大値は " + max1);
              System.out.println("最小値は " + min1);
-                
+             
+             
                 
           /*3次元配列 int[][][] array = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}}; を用意する
           配列内のすべての要素を 表示*/
