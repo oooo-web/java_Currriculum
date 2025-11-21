@@ -1,20 +1,16 @@
 === バトル開始 ===
 n vs Daemon
 
-n vs Daemon
-
 先攻は n！
 
-nが攻撃！ Daemonの残りHP：69
-Daemonが攻撃！ nの残りHP：83
-nが攻撃！ Daemonの残りHP：53
-Daemonが攻撃！ nの残りHP：71
-nが攻撃！ Daemonの残りHP：37
-Daemonが攻撃！ nの残りHP：59
-nが攻撃！ Daemonの残りHP：21
-Daemonが攻撃！ nの残りHP：47
-nが攻撃！ Daemonの残りHP：5
-Daemonが攻撃！ nの残りHP：35
+nが攻撃！ Daemonの残りHP：67
+Daemonが攻撃！ nの残りHP：58
+nが攻撃！ Daemonの残りHP：49
+Daemonが攻撃！ nの残りHP：46
+nが攻撃！ Daemonの残りHP：31
+Daemonが攻撃！ nの残りHP：34
+nが攻撃！ Daemonの残りHP：13
+Daemonが攻撃！ nの残りHP：22
 nが攻撃！ Daemonの残りHP：0
 
 --- バトル終了 ---

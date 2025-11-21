@@ -14,18 +14,18 @@ public class Player extends Character {
         return rand.nextInt(max - min + 1) + min;
     }
 
-    public static Player createPlayer() {
-        Scanner sc = new Scanner(System.in);
+    public static Player createPlayer(Scanner sc) {
+//        Scanner sc = new Scanner(System.in);
         System.out.print("プレイヤー名を入力してください：");
         String name = sc.nextLine();
         Player p = new Player(name);
-        
-        sc.close(); // 最後に閉じる！
+       
         
         System.out.println("\n【" + name + "のステータス】");
         System.out.println("HP: " + p.getHp());
         System.out.println("AT: " + p.getAt());
         System.out.println("SP: " + p.getSp());
+        
         return p;
         
         

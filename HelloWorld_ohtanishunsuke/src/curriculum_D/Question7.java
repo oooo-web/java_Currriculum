@@ -3,14 +3,20 @@ package curriculum_D;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Question7 {
 	public static void main(String[] args) {
-		Player player = Player.createPlayer();//プレイヤーを作る（名前入力＋ステータスランダム
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Player player = Player.createPlayer(sc);//プレイヤーを作る（名前入力＋ステータスランダム
 		Daemon daemon = Daemon.loadDaemon("src/curriculum_D/daemon_status.txt");//ファイルから敵のステータスを読み込む
 		
 		System.out.println("バトル開始");
 		battle(player, daemon);
+		
+		 sc.close(); // ← 最後に閉じる
 	}
 
 	
@@ -24,7 +30,6 @@ public class Question7 {
 	    log.append(player.getName() + " vs " + daemon.getName() + "\n\n");//「player name vs Daemon」
 	    
 	    System.out.println(player.getName() + " vs " + daemon.getName() + "\n");//hyouji
-	    log.append(player.getName() + " vs " + daemon.getName() + "\n\n");
 
 
 	/*------------------------------------------------------------------------------------*/
