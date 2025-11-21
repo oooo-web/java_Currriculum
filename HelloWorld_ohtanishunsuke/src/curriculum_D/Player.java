@@ -14,8 +14,14 @@ public class Player extends Character {
         return rand.nextInt(max - min + 1) + min;
     }
 
+    
+  //----------------------再提出修正箇所----------------------//
+    
     public static Player createPlayer(Scanner sc) {
 //        Scanner sc = new Scanner(System.in);
+    	
+  //----------------------再提出修正箇所----------------------//
+    	
         System.out.print("プレイヤー名を入力してください：");
         String name = sc.nextLine();
         Player p = new Player(name);
